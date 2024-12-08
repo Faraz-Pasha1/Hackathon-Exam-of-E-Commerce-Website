@@ -10,7 +10,7 @@ export default function Ourblogs () {
        
         <div className="w-full sm:h-auto md:h-[944px] md:py-28 flex flex-col items-center">
   <div className="w-full h-full">
-    {/* TOP PICKS FOR YOU */}
+    
     <div className="flex flex-col items-center space-y-4 text-center">
       <h1 className="text-[28px] sm:text-[36px] font-bold">Our Blogs</h1>
       <p className="text-[14px] sm:text-[16px] text-[#9F9F9F]">
@@ -90,7 +90,7 @@ export default function Ourblogs () {
       </div>
     </div>
 
-    {/* View All Blogs Button */}
+   
     <div className="pt-10 flex justify-center items-center">
       <Link href="/blog">
         <button className="text-[16px] sm:text-[20px] font-medium underline underline-offset-[24px]">
