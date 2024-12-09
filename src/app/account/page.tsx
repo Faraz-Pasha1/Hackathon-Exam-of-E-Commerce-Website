@@ -105,30 +105,32 @@ export default function Account () {
       </div>
 
       {/* Features Section */}
-      <div className="w-full bg-[#FAF4F4] flex flex-col sm:flex-row justify-evenly items-center mt-10 p-6 gap-y-6 sm:gap-y-0">
-        {/* Box 1 */}
-        <div className="w-[280px] text-center sm:text-left">
-          <h1 className="font-medium text-lg sm:text-xl md:text-2xl">Free Delivery</h1>
-          <p className="text-sm text-gray-500">
-            For all orders over $50, consectetur adipiscing elit.
-          </p>
-        </div>
+      <div className="w-full sm:h-full md:h-[300px] mt-10 bg-[#FAF4F4] flex flex-col sm:justify-center sm:items-center md:flex-row md:justify-evenly md:items-center">
+    {/* BOX 1 */}
+    <div className="w-[300px] h-[100px] mt-6 sm:mt-4 md:mt-0 text-center md:text-start">
+      <h1 className="font-medium sm:text-[24px] md:text-[32px] md:text-start sm:text-center">
+        Free Delivery
+      </h1>
+      <p className="text-sm text-[20px] text-[#9F9F9F]">
+        For all orders over $50, consectetur adipiscing elit.
+      </p>
+    </div>
 
-        {/* Box 2 */}
-        <div className="w-[280px] text-center sm:text-left">
-          <h1 className="font-medium text-lg sm:text-xl md:text-2xl">90 Days Return</h1>
-          <p className="text-sm text-gray-500">
-            If goods have problems, consectetur adipiscing elit.
-          </p>
-        </div>
+    {/* BOX 2 */}
+    <div className="gap-y-3 w-[300px] h-[100px] mt-6 sm:mt-4 md:mt-0 text-center md:text-start">
+      <h1 className="font-medium text-[24px] md:text-[32px]">90 Days Return</h1>
+      <p className="text-sm text-[20px] text-[#9F9F9F]">
+        If goods have problems, consectetur adipiscing elit.
+      </p>
+    </div>
 
-        {/* Box 3 */}
-        <div className="w-[280px] text-center sm:text-left">
-          <h1 className="font-medium text-lg sm:text-xl md:text-2xl">Secure Payment</h1>
-          <p className="text-sm text-gray-500">
-            100% secure payment, consectetur adipiscing elit.
-          </p>
-        </div>
+    {/* BOX 3 */}
+    <div className="gap-y-3 w-[300px] h-[100px] mt-6 sm:mt-4 md:mt-0 text-center md:text-start">
+      <h1 className="font-medium text-[24px] md:text-[32px]">Secure Payment</h1>
+      <p className="text-sm text-[20px] text-[#9F9F9F]">
+        100% secure payment, consectetur adipiscing elit.
+      </p>
+    </div>
       </div>
     </div>
     

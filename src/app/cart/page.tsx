@@ -27,13 +27,13 @@ export default function Cart () {
         width={77}
         height={77}
       />
-      <h1 className="text-2xl md:text-4xl font-bold">Blog</h1>
+      <h1 className="text-2xl md:text-4xl font-bold">Cart</h1>
       <ul className="flex flex-row justify-center items-center text-center pt-2">
         <li className="hover:underline-offset-1 underline">
           <Link href="/">Home</Link>
         </li>
         <MdOutlineKeyboardArrowRight />
-        <p>Blog</p>
+        <p>Cart</p>
       </ul>
     </div>
   </div>

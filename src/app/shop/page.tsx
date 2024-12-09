@@ -22,10 +22,10 @@ export default function Shop () {
                     alt="ShopBanner"
                     width={1440}
                     height={316}
-                    className="w-full h-[300px] md:h-[316px] object-cover"
+                    className="w-full sm:w-auto sm:h-[200px] md:h-[316px] "
                 />
 
-                <div className="absolute inset-0 flex flex-col justify-center items-center mb-20 z-10">
+                <div className="absolute inset-0 flex flex-col justify-center items-center md:mb-20 md:z-10">
                     <Image
                         src="/images/shop banner image top.png"
                         alt="ShopBannerlogo"
@@ -33,7 +33,7 @@ export default function Shop () {
                         height={77}
                     />
 
-                    <h1 className="text-2xl md:text-4xl font-bold">Shop</h1>
+                    <h1 className="tsm:text-xl md:text-4xl font-bold">Shop</h1>
                     <ul className="flex flex-row justify-center items-center text-center pt-2">
                         <li className="hover:underline-offset-1 underline">
                             <Link href="/">Home</Link>
@@ -52,10 +52,10 @@ export default function Shop () {
 
 
 
-            <div className="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 pl-10">
+            <div className="w-[95%] grid sm:grid-cols-1 xs:grid-cols-1 md:grid-cols-4 sm:items-center text-center sm:justify-center md:gap-6 md:pl-10">
                 {/* Card 1 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className="flex justify-center items-center">
                             <Image
                                 src="/images/toppick (2).png"
                                 alt="Toppicimage1"
@@ -63,8 +63,8 @@ export default function Shop () {
                                 height={180}
                             />
                             </div>
-                            <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                            <div className="flex flex-col pt-10 text-center">
+                                <span className="text-[16px] font-medium ]">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -73,7 +73,7 @@ export default function Shop () {
 
                     {/* Card 2 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className=" flex justify-center items-center">
                             <Image
                                 src="/images/shop first 3 (2).png"
                                 alt="Toppicimage1"
@@ -82,7 +82,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium ">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -91,7 +91,7 @@ export default function Shop () {
 
                     {/* Card 3 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className="flex justify-center items-center">
                             <Image
                                 src="/images/shop first 3 (3).png"
                                 alt="Toppicimage1"
@@ -100,7 +100,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium ">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -109,7 +109,7 @@ export default function Shop () {
 
                     {/* Card 4 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className=" flex justify-center items-center">
                             <Image
                                 src="/images/shop first 3 (1).png"
                                 alt="Toppicimage1"
@@ -118,7 +118,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -126,7 +126,7 @@ export default function Shop () {
                         </div>
 
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className="flex justify-center items-center">
                             <Image
                                 src="/images/shop second (3).png"
                                 alt="Toppicimage1"
@@ -135,7 +135,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium ">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -144,7 +144,7 @@ export default function Shop () {
 
                     {/* Card 2 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className="flex justify-center items-center">
                             <Image
                                 src="/images/shop second (4).png"
                                 alt="Toppicimage1"
@@ -153,7 +153,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -162,7 +162,7 @@ export default function Shop () {
 
                     {/* Card 3 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className=" flex justify-center items-center">
                             <Image
                                 src="/images/shop second (2).png"
                                 alt="Toppicimage1"
@@ -171,7 +171,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium ">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -180,7 +180,7 @@ export default function Shop () {
 
                     {/* Card 4 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className=" flex justify-center items-center">
                             <Image
                                 src="/images/shop second (1).png"
                                 alt="Toppicimage1"
@@ -189,7 +189,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium ">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -197,7 +197,7 @@ export default function Shop () {
                         </div>
 
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className="flex justify-center items-center">
                             <Image
                                 src="/images/shop third (2).png"
                                 alt="Toppicimage1"
@@ -206,7 +206,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium ">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -215,7 +215,7 @@ export default function Shop () {
 
                     {/* Card 2 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className=" flex justify-center items-center">
                             <Image
                                 src="/images/shop third (3).png"
                                 alt="Toppicimage1"
@@ -224,7 +224,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -233,7 +233,7 @@ export default function Shop () {
 
                     {/* Card 3 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className=" flex justify-center items-center">
                             <Image
                                 src="/images/shop third (4).png"
                                 alt="Toppicimage1"
@@ -242,7 +242,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium ">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -251,7 +251,7 @@ export default function Shop () {
 
                     {/* Card 4 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className="flex justify-center items-center">
                             <Image
                                 src="/images/shop third (1).png"
                                 alt="Toppicimage1"
@@ -260,7 +260,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium ">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -268,7 +268,7 @@ export default function Shop () {
                         </div>
 
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className=" flex justify-center items-center">
                             <Image
                                 src="/images/shop fourth (1).png"
                                 alt="Toppicimage1"
@@ -277,7 +277,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium ">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -286,7 +286,7 @@ export default function Shop () {
 
                     {/* Card 2 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className=" flex justify-center items-center">
                             <Image
                                 src="/images/shop fourth (4).png"
                                 alt="Toppicimage1"
@@ -295,7 +295,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium ">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -304,7 +304,7 @@ export default function Shop () {
 
                     {/* Card 3 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className=" flex justify-center items-center">
                             <Image
                                 src="/images/shop fourth (2).png"
                                 alt="Toppicimage1"
@@ -313,7 +313,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>
@@ -322,7 +322,7 @@ export default function Shop () {
 
                     {/* Card 4 */}
                         <div>
-                            <div className="w-[270px] h-[250px] flex justify-center items-center">
+                            <div className=" flex justify-center items-center">
                             <Image
                                 src="/images/shop fourth (3).png"
                                 alt="Toppicimage1"
@@ -331,7 +331,7 @@ export default function Shop () {
                             />
                             </div>
                             <div className="flex flex-col pt-10">
-                                <span className="text-[16px] font-medium w-[194px]">
+                                <span className="text-[16px] font-medium">
                                     Trenton modular sofa_3
                                 </span>
                                 <span className="text-[24px] pt-2">Rs. 25,000.00</span>

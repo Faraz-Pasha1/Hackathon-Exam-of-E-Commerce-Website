@@ -1,86 +1,57 @@
-import Link from "next/link"
 
 
 export default function Footer () {
-    return (
-        <footer className="bg-white py-8 px-4">
-      <div className="max-w-6xl mx-auto flex justify-between gap-10">
-        {/* Left Section - Address */}
-        <div className="flex flex-col text-gray-500">
-          <p>400 University Drive Suite 200 Coral Gables, FL 33134 USA</p>
-        </div>
+  return (
+      <div className = "sm:pl-5 md:pl-0 sm:gap-y-5 md:gap-y-0  md:mt-10  flex sm:flex-col md:flex-row justify-evenly sm:items-start md:text-center  sm:h-full md:h-[400px] ">
+          <div>
+              <h1 className = "text-[20px] font-semibold">Exclusive</h1>
+              <ul className = "space-y-4 mt-8 text-[16px]">
+                  <li>Subscribe</li>
+                  <li>Get 10% off your first order</li>
+                  <li>Subscribe</li>
+                 
+              </ul>
+          </div>
+          <div>
+              <h1 className = "text-[20px] font-semibold">Support</h1>
+              <ul className = "space-y-4 mt-8 text-[16px]">
+                  <li>111 Bijoy sarani, Dhaka,  DH 1515, Bangladesh.</li>
+                  <li>exclusive@gmail.com</li>
+                  <li>+88015-88888-9999</li>
+              </ul>
+          </div>
+          <div>
+              <h1 className = "text-[20px] font-semibold">My Account</h1>
+              <ul className = "space-y-4 mt-8 text-[16px]">
+                  <li>My Account</li>
+                  <li>Login / Register</li>
+                  <li>Cart</li>
+                  <li>Whislist</li>
+                  <li>Shop</li>
+              </ul>
+          </div>
+          <div>
+              <h1 className = "text-[20px] font-semibold">Quick Link</h1>
+              <ul className = "space-y-4 mt-8 text-[16px]">
+                  <li>Privacy Policy</li>
+                  <li>Terms of Use</li>
+                  <li>FAQ</li>
+                  <li>Contact</li>
+              </ul>
+          </div>
 
-        {/* Links Section */}
-        <div className="flex flex-col gap-2">
-          <h3 className="font-semibold text-gray-700">Links</h3>
-          <ul className="space-y-2">
-            <li>
-              <Link href="/home" className="text-gray-500 hover:text-black">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link href="/shop" className="text-gray-500 hover:text-black">
-                Shop
-              </Link>
-            </li>
-            <li>
-              <Link href="/about" className="text-gray-500 hover:text-black">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link href="/contact" className="text-gray-500 hover:text-black">
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </div>
+          <div>
+              <h1 className = "text-[20px] font-semibold">Download App</h1>
+              <ul className = "space-y-4 mt-8 text-[16px]">
+                  <li>Save $3 with App New User Only</li>
+                  <li>Terms of Use</li>
+                  <li>FAQ</li>
+                  <li>Contact</li>
+              </ul>
+          </div>
+          <div className = "border-b-2 border-gray-500 "></div>
 
-        {/* Help Section */}
-        <div className="flex flex-col gap-2">
-          <h3 className="font-semibold text-gray-700">Help</h3>
-          <ul className="space-y-2">
-            <li>
-              <Link href="/payment-options" className="text-gray-500 hover:text-black">
-                Payment Options
-              </Link>
-            </li>
-            <li>
-              <Link href="/returns" className="text-gray-500 hover:text-black">
-                Returns
-              </Link>
-            </li>
-            <li>
-              <Link href="/privacy-policies" className="text-gray-500 hover:text-black">
-                Privacy Policies
-              </Link>
-            </li>
-          </ul>
-        </div>
-
-        {/* Newsletter Section */}
-        <div className="flex flex-col gap-2">
-          <h3 className="font-semibold text-gray-700">Newsletter</h3>
-          <form className="flex gap-2">
-            <input
-              type="email"
-              placeholder="Enter Your Email Address"
-              className="p-2 border border-gray-300 rounded-md text-gray-600"
-            />
-            <button
-              type="submit"
-              className="px-4 py-2 bg-black text-white rounded-md hover:bg-gray-800"
-            >
-              Subscribe
-            </button>
-          </form>
-        </div>
+          
       </div>
-
-      <div className="mt-8 border-t border-gray-300 pt-4 text-center text-gray-500">
-        <p>2022 Meubel House. All rights reserved</p>
-      </div>
-    </footer>
-    )
+  )
 }
