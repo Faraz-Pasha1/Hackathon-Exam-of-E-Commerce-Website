@@ -23,13 +23,13 @@ export default function Productdetails () {
               width={77}
               height={77}
             />
-            <h1 className="text-2xl sm:text-4xl font-bold">Contact</h1>
+            <h1 className="text-2xl sm:text-4xl font-bold">Product Details</h1>
             <ul className="flex flex-row justify-center items-center text-center pt-2">
               <li className="hover:underline-offset-1 underline">
                 <Link href="/">Home</Link>
               </li>
               <MdOutlineKeyboardArrowRight />
-              <p>Contact</p>
+              <p>ProductDetails</p>
             </ul>
           </div>
         </div>
@@ -129,9 +129,9 @@ export default function Productdetails () {
                   />
                   <button className="px-4 py-2 text-gray-600 hover:bg-gray-100">+</button>
                 </div>
-                <button className="w-full lg:w-auto px-6 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">
-                  Add To Cart
-                </button>
+                
+                <a href="/cart" className="w-full lg:w-auto px-6 py-2 border border-black  rounded-lg ">
+                Add To Cart</a>
               </div>
       
               {/* Product Metadata */}
@@ -143,9 +143,9 @@ export default function Productdetails () {
       
               {/* Social Sharing */}
               <div className="mt-6 flex space-x-4">
-                <a href="#" className="text-gray-600 hover:text-blue-500">Share</a>
-                <a href="#" className="text-gray-600 hover:text-blue-500">Twitter</a>
-                <a href="#" className="text-gray-600 hover:text-blue-500">LinkedIn</a>
+                <a href="#" className="text-gray-600 ">Share</a>
+                <a href="#" className="text-gray-600">Twitter</a>
+                <a href="#" className="text-gray-600 ">LinkedIn</a>
               </div>
             </div>
           </div>

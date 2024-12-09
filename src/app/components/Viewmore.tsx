@@ -1,6 +1,7 @@
 
 
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Viewmore () {
@@ -23,16 +24,15 @@ export default function Viewmore () {
         <div className="flex flex-col items-center ">
           <h1 className="text-[24px] sm:text-[28px] md:text-[34px] text-center">Side Table</h1>
           <div className="pt-2">
-            <button className="text-[20px] sm:text-[22px] md:text-[24px] underline underline-offset-8">
-              View More
-            </button>
+          <a href="/productdetails" className="inline-block text-[20px] sm:text-[22px] md:text-[24px] underline underline-offset-8 px-4 py-2">
+             View More</a>
           </div>
         </div>
       </div>
     </div>
 
     {/* Second Item */}
-    <div className="w-full sm:w-[90%] md:w-[45%] flex flex-col items-center">
+    <div className="w-full sm:w-[90%] md:w-[45%] flex flex-col justify-center  items-center">
       <div className="w-full h-auto flex flex-col items-center">
         <Image
           src="/images/Cloud sofa three seater + ottoman_3 1.png"
@@ -44,9 +44,8 @@ export default function Viewmore () {
         <div className="flex flex-col items-center mt-4">
           <h1 className="text-[24px] sm:text-[28px] md:text-[34px] text-center">Cloud Sofa</h1>
           <div className="pt-2">
-            <button className="text-[20px] sm:text-[22px] md:text-[24px] underline underline-offset-8">
-              View More
-            </button>
+          <a href="/productdetails" className="inline-block text-[20px] sm:text-[22px] md:text-[24px] underline underline-offset-8 px-4 py-2">
+            View More</a>
           </div>
         </div>
       </div>

@@ -61,7 +61,9 @@ export default function Toppicks () {
                 </div>
 
                 <div className = "pt-16 flex justify-center items-center">
-                        <button className = "  md:text-[20px] font-medium underline underline-offset-[24px]">View More</button>
+                <a href="/shop" className="md:text-[20px] font-medium underline underline-offset-[24px]">
+                View More</a>
+                        
                 </div>
 
             </div>

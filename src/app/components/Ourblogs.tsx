@@ -31,9 +31,8 @@ export default function Ourblogs () {
         />
         <div className="flex flex-col justify-center text-center items-center pt-5">
           <h1 className="text-[16px] font-medium">Going all-in with millennial design</h1>
-          <button className="mt-2 text-[14px] sm:text-[20px] font-medium underline underline-offset-8">
-            Read More
-          </button>
+          <a href="/blog" className="mt-2 text-[14px] sm:text-[20px] font-medium underline underline-offset-8">
+                Read More</a>
           <div className="flex flex-wrap justify-center gap-2 pt-5 text-[14px] sm:text-[16px] items-center">
             <IoMdTime />
             <p>5 min</p>
@@ -54,9 +53,8 @@ export default function Ourblogs () {
         />
         <div className="flex flex-col justify-center text-center items-center pt-5">
           <h1 className="text-[16px] font-medium">Going all-in with millennial design</h1>
-          <button className="mt-2 text-[14px] sm:text-[20px] font-medium underline underline-offset-8">
-            Read More
-          </button>
+          <a href="/blog" className="mt-2 text-[14px] sm:text-[20px] font-medium underline underline-offset-8">
+                Read More</a>
           <div className="flex flex-wrap justify-center gap-2 pt-5 text-[14px] sm:text-[16px] items-center">
             <IoMdTime />
             <p>5 min</p>
@@ -77,9 +75,9 @@ export default function Ourblogs () {
         />
         <div className="flex flex-col justify-center text-center items-center pt-5">
           <h1 className="text-[16px] font-medium">Going all-in with millennial design</h1>
-          <button className="mt-2 text-[14px] sm:text-[20px] font-medium underline underline-offset-8">
-            Read More
-          </button>
+          <a href="/blog" className="mt-2 text-[14px] sm:text-[20px] font-medium underline underline-offset-8">
+                Read More</a>
+
           <div className="flex flex-wrap justify-center gap-2 pt-5 text-[14px] sm:text-[16px] items-center">
             <IoMdTime />
             <p>5 min</p>
@@ -92,11 +90,8 @@ export default function Ourblogs () {
 
    
     <div className="pt-10 flex justify-center items-center">
-      <Link href="/blog">
-        <button className="text-[16px] sm:text-[20px] font-medium underline underline-offset-[24px]">
-          View All Blogs
-        </button>
-      </Link>
+    <a href="/blog" className="mt-2 text-[14px] sm:text-[20px] font-medium underline underline-offset-8">
+    View All Blogs</a>
     </div>
   </div>
 </div>

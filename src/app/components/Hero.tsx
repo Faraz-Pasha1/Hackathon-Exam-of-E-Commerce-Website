@@ -15,9 +15,9 @@ export default function Hero () {
         </span>
       </div>
       <div className="pt-4">
-        <button className="mt-4 text-[18px] md:text-[24px] underline underline-offset-8">
-          Shop Now
-        </button>
+      <a href="/shop" className="mt-4 text-[18px] md:text-[24px] underline underline-offset-8">
+      Shop Now</a>
+        
       </div>
     </div>
 

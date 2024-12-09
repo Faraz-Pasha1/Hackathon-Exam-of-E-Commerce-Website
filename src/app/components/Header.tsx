@@ -40,7 +40,7 @@ export default function Header() {
           <li className="hover:text-gray-600"><Link href="/shop" >
             Shop
           </Link></li>
-          <li className="hover:text-gray-600"><Link href="/about" >
+          <li className="hover:text-gray-600"><Link href="/blog" >
             About
           </Link></li>
           <li className="hover:text-gray-600"><Link href="/contact" >
@@ -77,7 +77,7 @@ export default function Header() {
          
             <ul className="hidden lg:flex space-x-6 md:ml-32">
             <li className="hover:text-gray-600">
-                <Link href="/whishlist">
+                <Link href="/productdetails">
                 <CiHeart className="w-7 h-7 cursor-pointer" />
                 </Link>
             </li></ul>
@@ -101,7 +101,7 @@ export default function Header() {
             <li><Link href="/shop" onClick={toggleMenu} className="hover:text-gray-600">
               Shop
             </Link></li>
-            <li><Link href="/about" onClick={toggleMenu} className="hover:text-gray-600">
+            <li><Link href="/blog" onClick={toggleMenu} className="hover:text-gray-600">
               About
             </Link></li>
             <li><Link href="/contact" onClick={toggleMenu} className="hover:text-gray-600">
@@ -118,7 +118,7 @@ export default function Header() {
               
                 <CiSearch className="w-7 h-7 cursor-pointer" />
               <ul>
-              <li className="hover:text-gray-600"><Link href="/wishlist" >
+              <li className="hover:text-gray-600"><Link href="/productdetails" >
                 <CiHeart className="w-7 h-7 cursor-pointer" />
               </Link></li></ul>
               <ul>
