@@ -1,6 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { TbAdjustmentsHorizontal } from "react-icons/tb";
+import { BsFillGridFill } from "react-icons/bs";
+import { BsViewList } from "react-icons/bs";
+import { RxDividerVertical } from "react-icons/rx";
+
+
+
 import {
     Pagination,
     PaginationContent,
@@ -45,9 +52,36 @@ export default function Shop () {
             </div>
         </div>
 
-            <div className = "w-full md:h-[100px] bg-[#FAF4F4] ">
+            <div className = "flex justify-between sm:justify-center sm:items-center md:flex-row sm:flex-col sm:leading-tight">
+                <div className = "w-full md:h-[100px] bg-[#FAF4F4] sm:justify-center sm:leading-tight sm:items-center flex md:flex-row sm:flex-col gap-8 items-center">
+                    <div className = "flex sm:flex-row sm:items-center sm:leading-tight sm:gap-5">
+                    <div className = "flex md:flex-row  sm:flex-row items-center gap-2 md:ml-28">
+                    <TbAdjustmentsHorizontal className  = "sm:text-[14px] md:text-[20px] cursor-pointer" /> <p className  = "sm:text-[12px] md:text-[20px] cursor-pointer">Filter</p></div>
+                    <BsFillGridFill className  = "sm:text-[12px] md:text-[20px] cursor-pointer" />
+                    <BsViewList className  = "sm:text-[14px] md:text-[20px] cursor-pointer"/>
+                    <RxDividerVertical className = "text-[#9F9F9F] sm:text-[20px] md:text-[40px] cursor-pointer"/></div>
+                    <p className = "sm:text-[14px] md:text[16px] ">Showing 1 to 16 of 32 results</p>
+
+                    <div className = "flex md:flex-row items-center sm:leading-tight gap-5 md:ml-48 sm:pl-2">
+                        <label htmlFor="result" className="block text-sm sm:text-[14px] text-[20px] ">Show</label>
+                        <input
+                            type="number"
+                            id="result"
+                            placeholder=""
+                            defaultValue={1}
+                            className="sm:w-[40px] md:w-[55px] sm:h-[25px] md:h-[55px] px-4 py-2 bg-white"
+                        />
+                        <label htmlFor="result" className="block text-sm sm:text-[14px] text-[20px] ">Sort By</label>
+                        <input
+                            type="text"
+                            id="result"
+                            placeholder="Default"
+                            className="sm:w-[140px] md:w-[188px] sm:h-[25px] md:h-[55px]  px-4 py-2 bg-white"
+                        />
 
 
+                    </div>
+                </div>                
             </div>
 
 
