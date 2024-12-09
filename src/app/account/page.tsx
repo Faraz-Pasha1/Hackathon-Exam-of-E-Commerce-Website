@@ -34,9 +34,9 @@ export default function Account () {
                 </div>
             </div>
     
-            <div className="flex flex-col items-center justify-center bg-gray-100 min-h-screen">
+            <div className="flex flex-col items-center justify-center min-h-screen">
       {/* Login/Register Form */}
-      <div className="w-full max-w-4xl p-4 sm:p-8 bg-white shadow-lg rounded-lg">
+      <div className="w-full max-w-4xl p-4 sm:p-8 ">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Login Section */}
           <div>
