@@ -6,7 +6,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 export default function Productdetails () {
     return(
         <div>
-        {/* Banner */}
+        {/* Main Banner */}
         <div className="w-full relative">
           <Image
             src="/images/Shop Page Banner.png"
@@ -49,7 +49,7 @@ export default function Productdetails () {
       
           {/* Main Content Layout */}
           <div className="w-full max-w-6xl p-6 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 gap-8">
-            {/* Left Section - Product Image */}
+           
             <div className="flex flex-col items-center">
               <div className="w-full h-[300px] sm:h-[400px] flex items-center justify-center">
                 <img
@@ -59,7 +59,7 @@ export default function Productdetails () {
                 />
               </div>
       
-              {/* Thumbnails */}
+              {/* Small Pics with details */}
               <div className="mt-4 flex space-x-2 overflow-y-auto">
                 {[1, 2, 3, 4].map((_, index) => (
                   <div
@@ -76,7 +76,7 @@ export default function Productdetails () {
               </div>
             </div>
       
-            {/* Right Section - Product Info */}
+            {/* Product Info */}
             <div>
               <h1 className="text-[36px] sm:text-[30px] font-bold mb-4">Asgaard Sofa</h1>
               <p className="text-[24px] text-[#9F9F9F] font-semibold mb-4">Rs. 250,000.00</p>
@@ -134,14 +134,14 @@ export default function Productdetails () {
                 Add To Cart</a>
               </div>
       
-              {/* Product Metadata */}
+              {/* Product data details */}
               <div className="text-sm text-gray-500">
                 <p className="mb-1"><strong>SKU:</strong> SS001</p>
                 <p className="mb-1"><strong>Category:</strong> Sofas</p>
                 <p className="mb-1"><strong>Tags:</strong> Sofa, Chair, Home, Shop</p>
               </div>
       
-              {/* Social Sharing */}
+              {/* Social Media Platfor Sharing */}
               <div className="mt-6 flex space-x-4">
                 <a href="#" className="text-gray-600 ">Share</a>
                 <a href="#" className="text-gray-600">Twitter</a>

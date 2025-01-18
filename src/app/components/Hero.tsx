@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function Hero () {
     return (
         <div>
-  <div className="bg-[#FBEBB5] w-full h-auto md:h-[900px] flex flex-col md:flex-row justify-between sm:pt-4">
+  <div className="bg-[#FBEBB5]  h-auto md:h-[900px] flex flex-col md:flex-row justify-between sm:pt-4">
     {/* Left Side */}
     <div className="flex flex-col justify-center items-center h-auto md:h-screen px-4 md:px-0">
       <div className="flex flex-col items-center md:items-start text-center md:text-left mt-10 md:mt-60 md:ml-20">
